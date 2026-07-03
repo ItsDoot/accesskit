@@ -40,7 +40,7 @@ dependencies = [
  "accesskit_windows",
  "android-activity",
  "raw-window-handle",
- "winit-core 0.31.0-beta.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "winit-core 0.31.0-beta.2 (git+https://github.com/ItsDoot/winit?rev=0a9750f)",
 ]
 
 [[package]]
@@ -132,8 +132,8 @@ dependencies = [
  "raw-window-handle",
  "softbuffer",
  "winit",
- "winit-android 0.31.0-beta.2 (git+https://github.com/rust-windowing/winit?rev=27e17e3)",
- "winit-core 0.31.0-beta.2 (git+https://github.com/rust-windowing/winit?rev=27e17e3)",
+ "winit-android 0.31.0-beta.2 (git+https://github.com/ItsDoot/winit?rev=0a9750f)",
+ "winit-core 0.31.0-beta.2 (git+https://github.com/ItsDoot/winit?rev=0a9750f)",
 ]
 
 [[package]]
@@ -658,7 +658,7 @@ checksum = "d8b14ccef22fc6f5a8f4d7d768562a182c04ce9a3b3157b91390b52ddfdf1a76"
 [[package]]
 name = "dpi"
 version = "0.1.2"
-source = "git+https://github.com/rust-windowing/winit?rev=27e17e3#27e17e3f29439d0956e51f92f6e5d5470104e6b6"
+source = "git+https://github.com/ItsDoot/winit?rev=0a9750f#0a9750f93255270200227ff17920f7c9530ffab1"
 
 [[package]]
 name = "dyn-clone"
@@ -2874,16 +2874,16 @@ dependencies = [
 [[package]]
 name = "winit-android"
 version = "0.31.0-beta.2"
-source = "git+https://github.com/rust-windowing/winit?rev=27e17e3#27e17e3f29439d0956e51f92f6e5d5470104e6b6"
+source = "git+https://github.com/ItsDoot/winit?rev=0a9750f#0a9750f93255270200227ff17920f7c9530ffab1"
 dependencies = [
  "android-activity",
  "bitflags 2.8.0",
- "dpi 0.1.2 (git+https://github.com/rust-windowing/winit?rev=27e17e3)",
+ "dpi 0.1.2 (git+https://github.com/ItsDoot/winit?rev=0a9750f)",
  "ndk",
  "raw-window-handle",
  "smol_str",
  "tracing",
- "winit-core 0.31.0-beta.2 (git+https://github.com/rust-windowing/winit?rev=27e17e3)",
+ "winit-core 0.31.0-beta.2 (git+https://github.com/ItsDoot/winit?rev=0a9750f)",
 ]
 
 [[package]]
@@ -2943,11 +2943,11 @@ dependencies = [
 [[package]]
 name = "winit-core"
 version = "0.31.0-beta.2"
-source = "git+https://github.com/rust-windowing/winit?rev=27e17e3#27e17e3f29439d0956e51f92f6e5d5470104e6b6"
+source = "git+https://github.com/ItsDoot/winit?rev=0a9750f#0a9750f93255270200227ff17920f7c9530ffab1"
 dependencies = [
  "bitflags 2.8.0",
  "cursor-icon",
- "dpi 0.1.2 (git+https://github.com/rust-windowing/winit?rev=27e17e3)",
+ "dpi 0.1.2 (git+https://github.com/ItsDoot/winit?rev=0a9750f)",
  "keyboard-types",
  "raw-window-handle",
  "smol_str",
